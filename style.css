@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #F3F5FC;
+    font-family: 'inter', sans-serif;
+}
+
+.cabecalho__logo{
+    margin-top: 40px;
+    margin-left: 40px;
+    gap: 40px;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.conteudo__secao1__texto{
+    width: 680px;
+    height: 48px;
+
+    margin-left: 240px;
+    margin-top: 80px;
+
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    border: 0px;
+
+    background-color: #F3F5FC;
+}
+
+.conteudo__secao1__texto::placeholder{
+    color: #0A3871;
+}
+
+.conteudo__secao1__dica{
+    display: flex;
+
+    width: 252px;
+    height: 18px;
+
+    margin-top: 635px;
+    margin-left: 240px;
+}
+
+.conteudo__secao1__dica__imagem{
+    width: 16px;
+    height: 16px;
+}
+
+.conteudo__secao1__dica__mensagem{
+    width: 228px;
+    height: 18px;
+    opacity: 80%;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.conteudo__secao1__botoes{
+    width: 680px;
+    height: 67px;
+
+    margin-top: 16px;
+    margin-left: 240px;
+    gap: 24px;
+}
+
+.conteudo__secao1__botoes__criptografar{
+    width: 328px;
+    height: 67px;
+
+    border-radius: 24px;
+    padding: 24px;
+    gap: 8px;
+
+    background-color: #0A3871;
+    color: #FFFFFF;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+}
+
+.conteudo__secao1__botoes__descriptografar{
+    width: 328px;
+    height: 67px;
+
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    gap: 8px;
+
+    background-color: #D8DFE8;
+    color: #0A3871;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: center;
+}
+
+.conteudo__secao2{
+    width: 400px;
+    height: 944px;
+
+    margin-top: -52px;
+    margin-left: 80px;
+
+    border: 0px;
+    border-radius: 32px;
+
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.133);
+}
+
+.conteudo__secao2__imagem{
+    margin-top: 243px;
+    margin-left: 32px;
+}
+
+.conteudo__secao2__mensagem{
+    width: 336px;
+    height: 122px;
+
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.conteudo__secao2__mensagem__titulo{
+    width: 336px;
+    height: 58px;
+
+    font-weight: 700;
+    font-size: 24px;
+    
+    color: #343A40;
+
+    text-align: center;
+}
+
+.conteudo__secao2__mensagem__paragrafo{
+    width: 336px;
+    height: 48px;
+
+    font-weight: 400;
+    font-size: 16px;
+
+    color: #495057;
+
+    text-align: center;
+}
+
+.rodape{
+    background-color: #0A3871;
+    color: #FFFFFF;
+
+
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.rodape__mensagem{
+    text-align: center;
+}

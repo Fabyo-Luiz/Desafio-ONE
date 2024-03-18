@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+
+    <header class="cabecalho">
+
+        <img src="imagens/Logo.png" alt="Logo da Alura" class="cabecalho__logo">
+
+    </header>
+
+    <main class="conteudo">
+
+        <section class="conteudo__secao1">
+
+            <input type="text" placeholder="Digite seu texto" class="conteudo__secao1__texto" id="mensagemInput">
+
+            <div class="conteudo__secao1__dica">
+
+                <img src="imagens/Group.png" alt="" class="conteudo__secao1__dica__imagem">
+
+                <p class="conteudo__secao1__dica__mensagem">Apenas letras minúsculas e sem acento</p>
+
+            </div>
+
+            <div class="conteudo__secao1__botoes">
+
+                <button class="conteudo__secao1__botoes__criptografar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+
+                <button class="conteudo__secao1__botoes__descriptografar" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+
+            </div>
+
+        </section>
+
+        <section class="conteudo__secao2" id="resultado">
+
+            <div>
+                
+                <img src="imagens/High quality products 1 1.png" alt="" class="conteudo__secao2__imagem" id="imagem">
+
+                <div class="conteudo__secao2__mensagem" id="mensagem">
+
+                    <h1 class="conteudo__secao2__mensagem__titulo">
+                        Nenhuma mensagem encontrada
+                    </h1>
+
+                    <p class="conteudo__secao2__mensagem__paragrafo">
+                        Digite um texto que você deseja criptografar ou descriptografar
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+
+        <p class="rodape__mensagem">
+            Desenvolvido por Fabyo Luiz
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
